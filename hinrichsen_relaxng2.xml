@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="hinrichsen_relaxng2.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- Using a pretty entertaining news article, I wanted to focus this markup on correctly using 
+    operators like +,*,&, and | because I've been mixing them up and using them wrong, but I think
+    I used them all correctly here. The only thing I had trouble with was remembering how to use & 
+    in the schema, which I commented about on the Relax NG file.-->
+<article>
+    <information>
+        <title>Record harvest sparks mass giveaway of free potatoes across 
+            Berlin</title>
+        <heading>From zoos to soup kitchens, people are hauling away tonnes 
+            of surplus spuds after the biggest crop in 25 years</heading>
+        <author>Kate Connolly</author>
+        <date type="day">Sat 31 Jan</date> <date type="year">2026</date> <date type="time">08.00 EST</date>
+    </information>
+
+    <p>Germans love their potatoes. <statistic>They eat on average 63kg a person 
+       every year</statistic>, according to official statistics.</p>
+
+    <p>But the exceptional glut of potatoes produced by farmers during the 
+        last harvest has overwhelmed even the hardiest of fans.</p>
+
+    <p>Named the <quote>Kartoffel-Flut</quote> (potato flood), after the <statistic>highest yield in 
+        25 years</statistic>, the bumper crop has inspired one farmer to organise a potato 
+        dump on Berlin, with appeals going out around the <place type="city">German capital</place> for 
+        people to come to various hotspots and pick them up for free.</p>
+
+    <p><organization>Soup kitchens</organization>, <organization>homeless shelters</organization>,
+        <organization>kindergartens, schools</organization>, churches and 
+        <organization>non-profit organisations</organization> are among those to have taken 
+        their fill. Even <organization>Berlin zoo</organization> has participated in the 
+        “rescue mission”, taking tonnes of potatoes that would otherwise have gone to landfill, 
+        or to produce biogas, to feed its animals. <statistic>Two lorry loads have been sent</statistic> 
+        to <place type="country">Ukraine</place>.</p>
+    
+    <p><person>Astrid Marz</person> queued recently in <place type="city">Kaulsdorf</place>, on the <place type="region">eastern edge of 
+        Berlin</place>, one of <statistic>174 distribution points spontaneously set up</statistic> around 
+        the city, to stuff an old rucksack with spuds. <quote>“I stopped counting 
+        at 150. I think I’ve got enough to keep me and my neighbours going 
+        until the end of the year,”</quote> she said.</p>
+</article>

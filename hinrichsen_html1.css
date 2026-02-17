@@ -1,0 +1,17 @@
+
+body{
+    background: #b5e2c2;
+    font-family:sans-serif;
+    margin: 50px;
+}
+h1{
+    color: #0f5524;
+}
+
+h3{
+    color: #0f5524;
+}
+
+a:hover{
+    color: #124712;
+}

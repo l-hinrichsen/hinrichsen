@@ -1,0 +1,31 @@
+body{
+    background: beige;
+    font-family: Zapf-Chancery, cursive;
+    margin: 20px;
+}
+
+div.section{
+    display: flex;
+    flex-direction: column;
+    background-color: #c7d3af;
+    padding: 3px;
+}
+
+/* coloring */
+li.background{
+    background-color: white;
+}
+li.borders{
+    border: 2px solid brown;
+}
+li.text{
+    color: red;
+}
+h1{
+    color: #0f5524;
+}
+h3{
+    color: #0f5524;
+}
+
+/* table */
